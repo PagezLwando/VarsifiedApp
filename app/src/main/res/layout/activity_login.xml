@@ -6,4 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login_btn"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="237dp"
+        android:layout_height="48dp"
+        android:text="@string/register_btn"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="239dp" />
 </android.support.constraint.ConstraintLayout>
