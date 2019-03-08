@@ -3,11 +3,11 @@ package com.example.varsifiedapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class IndexActivity extends AppCompatActivity {
+public class Chats extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_index);
+        setContentView(R.layout.activity_chats);
     }
 }
